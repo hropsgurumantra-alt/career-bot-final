@@ -213,7 +213,7 @@
   //  🔑 PASTE YOUR FREE GOOGLE GEMINI API KEY BELOW
   //  Get it FREE from: aistudio.google.com → Get API Key
   // ============================================================
-  const GEMINI_API_KEY = 'PASTE_YOUR_GEMINI_API_KEY_HERE';
+  const GEMINI_API_KEY = 'AIzaSyBvZg5YhDhffIJquEoNU_iLrjBLwnGRDOQ';
   // ============================================================
 
   const SYSTEM_PROMPT = `You are GuruMantra4U Career Assistant — a warm, knowledgeable, and encouraging AI career advisor focused on helping students and freshers in India build successful IT careers.
@@ -252,7 +252,7 @@ Tone: Be friendly, encouraging, and specific. Use simple language. Use relevant 
     const userText = input.value.trim();
     if (!userText || isTyping) return;
 
-    if (!GEMINI_API_KEY || GEMINI_API_KEY === 'PASTE_YOUR_GEMINI_API_KEY_HERE') {
+    if (!GEMINI_API_KEY || GEMINI_API_KEY === 'AIzaSyBvZg5YhDhffIJquEoNU_iLrjBLwnGRDOQ') {
       appendMessage('bot', '⚙️ The bot is not set up yet. Please ask GuruMantra4U to configure the API key!');
       return;
     }
